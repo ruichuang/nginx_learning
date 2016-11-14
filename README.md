@@ -11,12 +11,12 @@ nginx html folder (brew install only) is by the defult in:
 
 location setting:
 
-location / {
-            root   /where/index/folder;
-            index  index.html index.htm;
-        }
+    location / {
+        root   /where/index/folder;
+        index  index.html index.htm;
+    }
 
-        location /images/ {
-            root   /where/images/folder;
-            
-        }
+    location /images/ {
+        root   /where/images/folder;
+
+    }
