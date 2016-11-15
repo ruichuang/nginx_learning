@@ -22,4 +22,5 @@ location setting:
     }
 
 see all on port 80: `sudo lsof -i :80`
+
 setting terminal title: `echo -n -e "\033]0;Title\007"`
