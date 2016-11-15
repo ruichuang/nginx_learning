@@ -2,7 +2,7 @@
 
 install from brew: $brew install/uninstall nginx.
 
-start/stop: $sudo sudo nginx/ -s stop.
+start/stop: $sudo nginx/ -s stop.
 
 brew need user has ownership on /usr/local, so need $sudo chown -R `whoami` /usr/local.
 
