@@ -20,3 +20,5 @@ location setting:
         root   /where/images/folder;
 
     }
+
+see all on port 80: `sudo lsof -i :80`
